@@ -32,6 +32,31 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+footer {
+    padding: 25px 50px;
+    color: #610;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+}
+footer p {
+    font-size: 1.2em;
+    margin: 100px;
+}
+footer p a:hover {
+    text-decoration: underline;
+    color:#610;
+}
+footer .social img {
+    padding-top: 15px;
+}
 .logo {
     width: 80px;
 }
@@ -128,31 +153,27 @@ header {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
-
-
-
 * {
     box-sizing: border-box;
   }
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .container {
+   /* Position the image container (needed to position the left and right arrows) */
+.container {
     position: relative;
-  }
+}
   
   /* Hide the images by default */
-  .mySlides {
+.mySlides {
     display: none;
-  }
+}
   
   /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
+.cursor {
     cursor: pointer;
   }
   
   /* Next & previous buttons */
-  .prev,
-  .next {
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 40%;
@@ -165,55 +186,106 @@ header {
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none;
-  }
+}
   
   /* Position the "next button" to the right */
-  .next {
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
+}
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
+}
   
   /* Number text (1/3 etc) */
-  .numbertext {
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
+}
   
   /* Container for image text */
-  .caption-container {
+.caption-container {
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
     color: white;
-  }
+}
   
-  .row:after {
+.row:after {
     content: "";
-    display: table;
+    display:table;
     clear: both;
-  }
+}
   
   /* Six columns side by side */
-  .column {
+.column {
     float: left;
     width: 16.66%;
-  }
+}
   
   /* Add a transparency effect for thumnbail images */
-  .demo {
+.demo {
     opacity: 0.6;
-  }
+}
   
-  .active,
-  .demo:hover {
+.active,
+.demo:hover {
     opacity: 1;
-  }
+}
+.home-grid3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    font-family: "Rampart One";
+    color: #610;
+}
+.card-img3 {
+    border: 5px solid #610;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 35%;
+    height: 50%;
+}
+.book1 {
+    grid-column: 1/3;
+    grid-row: 3/5;
+    margin: 10px 0;
+    text-wrap:pretty;
+}
+.book2 {
+    grid-column: 1/3;
+    grid-row: 4/6;
+    margin: 10px 0;
+    
+}
+.book3 {
+    grid-column: 1/3;
+    grid-row: 5/7;
+    margin: 10px 0;
+} 
+.book4 {
+    grid-column: 1/3;
+    grid-row: 6/8;
+    margin: 10px 0;
+}
+.book5 {
+    grid-column: 1/3;
+    grid-row: 7/9;
+    margin: 10px 0;
+}
+.book6 {
+    grid-column: 1/3;
+    grid-row: 8/10;
+    margin: 10px 0;
+}
+.book7 {
+    grid-column: 1/3;
+    grid-row: 9/11;
+    margin: 10px 0;
+}
