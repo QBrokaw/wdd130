@@ -9,7 +9,10 @@ body {
 #content {
     width: 1600px;
     margin: 0 auto;
-}    
+}  
+h1 {
+    color: #059c14;
+}  
 nav {
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
@@ -85,6 +88,7 @@ footer .social img {
     z-index: -1;
 }
 #hero-msg {
+    color: #610;
     grid-column: 2/3;
     grid-row: 1/3;
     margin-top: 100px;
@@ -288,4 +292,114 @@ footer .social img {
     grid-column: 1/3;
     grid-row: 9/11;
     margin: 10px 0;
+}
+.home-grid4 {
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    font-family: "Rampart One";
+    color: #059c14;
+}
+.card-img4 {
+    border: 5px solid #610;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 25%;
+}
+.tv1 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+    grid-column: 1;
+    grid-row: 1;
+}
+.tv2 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+    grid-column: 1;
+    grid-row: 2;
+}
+.tv3 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+    grid-column: 1;
+    grid-row: 3;
+}
+.tv4 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+    grid-column: 1;
+    grid-row: 4;
+}
+.tv5 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+    grid-column: 2;
+    grid-row: 1;
+}
+.tv6 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+    grid-column: 2;
+    grid-row: 2;
+}
+.tv7 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+    grid-column: 2;
+    grid-row: 3;
+}
+.tv8 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+    grid-column: 2;
+    grid-row: 4;
+}
+.home-grid5 {
+    display:list-item;
+    font-family: "Rampart One";
+    color: #059c14;
+}
+.card-img5 {
+    border: 5px solid #610;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 25%;
+}
+.series1 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+}
+.series2 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+}
+.series3 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+}
+.series4 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+}
+.series5 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
+}
+.series6 {
+    margin: 10px 0;
+    font-size:larger;
+    color: #059c14;
 }
